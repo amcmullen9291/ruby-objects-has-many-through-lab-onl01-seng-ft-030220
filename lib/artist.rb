@@ -21,5 +21,6 @@ attr_accessor :name, :songs
     @songs = songs 
     Songs.all.select |song|
     song.artist
+  end 
   
 end 
