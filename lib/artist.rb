@@ -21,7 +21,7 @@ attr_accessor :name, :songs, :genre
   def songs 
     @songs = songs 
     Songs.all.select |song|
-    song.artist
+    song.artist = self
   end 
   
   def genres 
