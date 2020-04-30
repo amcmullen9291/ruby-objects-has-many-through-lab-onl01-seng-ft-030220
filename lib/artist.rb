@@ -23,4 +23,6 @@ attr_accessor :name, :songs
     song.artist
   end 
   
+  def 
+  
 end 
