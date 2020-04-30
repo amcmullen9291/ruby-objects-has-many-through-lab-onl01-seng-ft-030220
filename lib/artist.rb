@@ -4,6 +4,7 @@ attr_accessor :name
 
   def initialize(name, genre=nil)
     @name = name 
+    @genre = genre
     @@all << self
   end 
   
