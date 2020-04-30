@@ -17,8 +17,9 @@ class Artist
 	end
 
 	def songs
-		@songs
-	end
+    Songs.all.select |song|
+    song.artist = self
+end
 
 	def genres
 		self.songs.collect do |song|
